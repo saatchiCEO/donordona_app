@@ -1,0 +1,31 @@
+{
+  "name": "donordona-general",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "~0.10.5",
+    "npm": "~1.2.18"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.2",
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-jade": "~0.8.0",
+    "grunt-contrib-sass": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-htmlcompressor": "~0.1.8",
+    "grunt-iced-coffee": "~0.7.0",
+    "jade": "~0.34.1",
+    "markdown": "~0.5.0",
+    "mocha": "1.7.0",
+    "sass": "~0.5.0"
+  },
+  "author": "S&S",
+  "license": "_"
+}
