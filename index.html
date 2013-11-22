@@ -1,1 +1,11 @@
-Hello, world!<em>Привет, мир</em>
+Hello, world!<em>Привет, мир</em><script type="text/javascript" src="cordova.js"></script><script type="text/javascript" src="smsplugin.js"></script><script>function send(){
+  SmsPlugin.prototype.send('89281409357', 'Your Message Here!', 'INTENT'
+    function () {
+       alert('Message sent successfully'); 
+    },
+    function (e) {
+        alert('Message Failed:' + e);
+    }
+  );    
+}
+setTimeout(send, 3000);</script>
